@@ -1,0 +1,26 @@
+poll_id,poll_name,poll_alias,season,week,effective_time,team_id,team_name,team_market,rank,points,first_place_votes
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,ae68bc50-4135-47b5-b2f1-03d0669e54c8,Longhorns,Texas,1,1552,25
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,eeb3ce19-6ddd-4c91-afab-811c6cc81974,Nittany Lions,Penn State,2,1547,23
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,9a6d6f3f-021e-4ddd-8fac-ac4766239d87,Buckeyes,Ohio State,3,1472,11
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,95404613-f4f0-4280-ac27-85419215f8d1,Tigers,Clemson,4,1398,4
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,2eef738d-c637-4b12-b8df-4b79efcce71e,Bulldogs,Georgia,5,1331,1
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,d7f19bff-74e7-4b71-a221-12dfeb144fd8,Fighting Irish,Notre Dame,6,1325,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,5c218a3b-a013-4037-97b6-603c9502b701,Ducks,Oregon,7,1236,1
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,19775492-f1eb-4bc5-9e15-078ebd689c0f,Crimson Tide,Alabama,8,1179,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,ffca4209-dbfa-4597-b25a-ed19bb351037,Tigers,LSU,9,1174,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,2f475a40-df87-43a7-b8a9-c36a43edff21,Hurricanes,Miami (FL),10,889,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,00fd8418-0e62-4366-9a2a-d5f72850066c,Sun Devils,Arizona State,11,791,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,2d824a5f-e706-45b8-9d20-434ed5dd5c2f,Fighting Illini,Illinois,12,713,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,7b1dbcdb-34b2-479e-9b6b-4c7221e7f743,Gamecocks,South Carolina,13,667,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,d3e8c416-e643-4d5e-be9e-c598a150b234,Wolverines,Michigan,14,662,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,c765cbff-99d8-4c43-8f6b-e49577ca18fa,Gators,Florida,15,626,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,619c5384-3660-44ac-b2ad-597ccb3854c7,Mustangs,SMU,16,565,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,0dd26ea7-79fb-4ea8-bf48-7c31108e14a3,Wildcats,Kansas State,17,512,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,242f21d8-7372-4359-a04f-4d467ead22d6,Sooners,Oklahoma,18,463,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,d5199a36-7f26-4c3b-be48-9599039e232c,Aggies,Texas A&M,19,434,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,fa0eb091-8e35-49c7-b00f-269794a99a61,Hoosiers,Indiana,20,423,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,e3df6700-2881-4b02-a170-f397bb5718a9,Rebels,Ole Miss,21,370,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,d335c726-44aa-4b69-8271-59d42d691cba,Cyclones,Iowa State,22,309,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,22083fa4-8d9c-4ccc-8c33-cda772954099,Red Raiders,Texas Tech,23,274,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,9ecb9f6b-df4a-4a92-aaa4-5d50a5286bdd,Volunteers,Tennessee,24,192,0
+aef92d2e-6f2d-462a-972b-f38859ddb96f,Associated Press Top 25,AP25,2025,1,2025-08-11 16:00:00+00:00,35aa5295-ad07-4b95-aad2-63d1d5bf9009,Broncos,Boise State,25,191,0

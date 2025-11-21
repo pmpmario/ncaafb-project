@@ -1,0 +1,114 @@
+1. Teams
+Stores core team info (shared across all endpoints).
+
+team_id (PK)   UUID  Unique ID from API
+market VARCHAR City/region (e.g., “Ohio State”)
+name  VARCHAR Team name (e.g., “Buckeyes”)
+alias VARCHAR Short code (e.g., “OSU”)
+founded INT Year founded (optional, from roster)
+mascot VARCHAR Team mascot
+fight_song VARCHAR Fight song title
+championships_won INT Total championships
+conference_id (FK) UUID Linked to Conferences table
+division_id (FK) UUID Linked to Divisions table
+venue_id (FK) UUID Linked to Venues table
+
+
+
+2. Venues
+Each team plays in one venue (stadium).
+
+venue_id (PK) UUID Unique venue ID
+name VARCHAR Stadium name
+city VARCHAR City
+state VARCHAR State
+country VARCHAR Country
+zip VARCHAR ZIP code
+address VARCHAR Address
+capacity INT Seating capacity
+surface VARCHAR Turf type
+roof_type VARCHAR Indoor/outdoor
+latitude DECIMAL Latitude
+longitude DECIMAL Longitude
+
+
+3. Conferences
+From roster and team info.
+
+conference_id (PK) UUID Unique ID
+name VARCHAR Conference name (e.g., Southeastern)
+alias VARCHAR Short code (e.g., SEC)
+
+
+
+4. Seasons
+From seasons endpoint.
+
+season_id (PK) UUID Unique ID
+year INT Season year
+start_date DATE Start date
+end_date DATE End date
+status VARCHAR Status (closed/active)
+type_code VARCHAR Type (REG, POST, etc.)
+
+
+5. Players
+Core player info (from player profile and team roster). Game roster
+
+player_id (PK) UUID Player ID 
+first_name VARCHAR First name
+last_name VARCHAR Last name
+abbr_name VARCHAR Abbreviation
+birth_place VARCHAR Birth place
+position VARCHAR Position (QB, RB, etc.)
+height INT Height (inches)
+weight INT Weight (lbs)
+status VARCHAR Status (ACT, NWT, etc.)
+eligibility VARCHAR Class (FR, JR, SR, etc.)
+team_id (FK) UUID Linked to Teams
+
+
+
+6. Player_Statistics
+Each player’s stats per season and team (from player profile’s nested structure).
+
+stat_id (PK) SERIAL Unique record ID
+player_id (FK) UUID Linked to Players
+team_id (FK) UUID Linked to Teams
+season_id (FK) UUID Linked to Seasons
+games_played INT Games played
+games_started INT Games started
+rushing_yards INT Total rushing yards
+rushing_touchdowns INT Rushing touchdowns
+receiving_yards INT Receiving yards
+receiving_touchdowns INT Receiving touchdowns
+kick_return_yards INT Kick return yards
+fumbles INT Fumbles count
+
+
+
+🏅 7. Rankings
+From rankings_weekly endpoint.
+
+ranking_id (PK) SERIAL Unique ID
+poll_id UUID e.g., AP25
+poll_name VARCHAR Poll name
+season_id (FK) UUID Linked to Seasons
+week INT Week number
+effective_time TIMESTAMP Poll release time
+team_id (FK) UUID Linked to Teams
+rank INT Rank position
+prev_rank INT Previous rank
+points INT Poll points
+fp_votes INT First-place votes
+wins INT Wins
+losses INT Losses
+ties INT Ties
+
+
+8. Coaches
+
+coach_id (PK) UUID Coach ID
+full_name VARCHAR Full name
+position VARCHAR Role (Head Coach, etc.)
+team_id (FK) UUID Linked to Teams
